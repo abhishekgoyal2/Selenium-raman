@@ -25,7 +25,7 @@ int num2=15;
 System.out.println("before"+ (num1+num2)+"after");
 System.out.println(!false);
 System.out.println((122==123)&&(10==10));
-System.out.println((122==123)||(10==10));
+//System.out.println((122==123)||(10==10));
 	
 	}
 

@@ -30,7 +30,7 @@ public class Methodcalling {
 		go();
 		System.out.println("after calling go method");
 
-//		System.out.println("in go1 method");
+
 	}
 	
 	public void go2()

@@ -5,7 +5,7 @@ public class IFElseStatements {
 		// TODO Auto-generated method stub
 		int num= (int)(Math.random()*20);
 		System.out.println(num);
-
+//
 		if(num>10)
 		{
 			System.out.println("number is greater than 10");

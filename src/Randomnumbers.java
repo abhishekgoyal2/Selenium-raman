@@ -6,7 +6,7 @@ public class Randomnumbers {
 		
 		int num= (int)(Math.random()*4);
 		System.out.println(num);
-
+//
 	}
 
 }
