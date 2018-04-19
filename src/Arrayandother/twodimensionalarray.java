@@ -7,7 +7,7 @@ public class twodimensionalarray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int row =4 ;
+		int row =3 ;
 		int column=5;
 		
 		int table[][] =new int[row][column];
@@ -30,14 +30,14 @@ public class twodimensionalarray {
 		table[2][3]=25;
 		table[2][4]=30;
 		
-		int tabsize =table.length;
+		int tabsize =table[1].length;
 		
-		System.out.println(tabsize) ;
+//		System.out.println(tabsize) ;
 		
 		for(int i=0;i<row;i++)
 		{
 
-			for(int j=0;j<row;j++)
+			for(int j=0;j<column;j++)
 			{
 			System.out.println(table[i][j]) ;
 			
