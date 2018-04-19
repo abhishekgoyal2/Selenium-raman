@@ -7,13 +7,13 @@ public class TestBank {
 
 		Bank b1=new Bank();
 		b1.name="HSBC";
-		Bank.accountbalance=500;
-		Bank.interestgained(300);
+		b1.accountbalance=500;
+		int increment =b1.interestgained(200);
 		
 	
 		System.out.println(b1.accountbalance);
 		System.out.println(b1.name);
-//		System.out.println(b1.interestgained(increment));
+		System.out.println(increment);
 		
 		Members m=new Members();
 		m.add="203 -secondstreet Chandigarh";
