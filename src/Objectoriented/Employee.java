@@ -1,6 +1,6 @@
 package Objectoriented;
 
-
+//
 
 public interface Employee {
 
