@@ -4,12 +4,12 @@ public class Bank {
 
 
 	String name;
-	static int accountbalance;
+	 int accountbalance;
 	Members mem;
 
-	public static int interestgained(int increment)
+	public  int interestgained(int increment)
 	{
-		accountbalance =accountbalance+increment;
+		increment =accountbalance+increment;
 		
 		return increment;
 		

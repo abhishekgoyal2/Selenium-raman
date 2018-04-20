@@ -34,6 +34,7 @@ public class TestBank {
 		System.out.println(b2.mem.add);
 		System.out.println(b2.mem.name);
 		
+		
 	}
 
 	
