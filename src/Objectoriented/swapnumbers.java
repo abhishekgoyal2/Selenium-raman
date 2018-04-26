@@ -2,8 +2,8 @@ package Objectoriented;
 
 public class swapnumbers {
 
-	int s;
-	int t;
+	static int s;
+	static int t;
 	
 	public static void swap(int a,int b)
 	{
@@ -28,10 +28,16 @@ public class swapnumbers {
 		swapnumbers sw =new swapnumbers();
 		sw.s=0;
 		sw.t=40;
-		swap(sw);
+		
+		swap(2,4);//Pass by value
+		System.out.println("Pass by value swap numbers not swapped " + sw.s);
+		System.out.println("Pass by value numbers not swapped " + sw.t);
+		
+		swap(sw);//Pass by reference
 		System.out.println("Pass by reference swap numbers " + sw.s);
 		System.out.println("Pass by reference numbers " + sw.t);
 
+		
 
 	}
 
