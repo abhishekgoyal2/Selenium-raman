@@ -19,9 +19,10 @@ public class TestBank {
 		m.add="203 -secondstreet Chandigarh";
 		m.name="Agupta";
 		
-		b1.mem=m;
-		System.out.println(b1.mem.add);
-		System.out.println(b1.mem.name);
+//		b1.mem=m;
+//		System.out.println(b1.mem.add);
+//		System.out.println(b1.mem.name);
+//		
 	
 		Bank b2=new Bank();
 		b2.name="HDFC";

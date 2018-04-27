@@ -1,6 +1,6 @@
-package Objectoriented;
+package  Objectoriented;
 
-public class Finalmethodsubclass extends Finalmethod{
+public final class Finalmethodsubclass extends Finalmethod{
 
 //	public  final int display(int b)
 //	{

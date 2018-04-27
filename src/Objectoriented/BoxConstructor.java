@@ -8,9 +8,9 @@ public class BoxConstructor {
 	    // specified
 	    BoxConstructor(double w, double h, double d)
 	    {
-	        width = w;
-	        height = h;
-	        depth = d;
+	       this.width = w;
+	        this.height = h;
+	        this.depth = d;
 	    }
 	 
 	    // constructor used when no dimensions
@@ -38,7 +38,7 @@ BoxConstructor box1=new BoxConstructor();
 BoxConstructor box2=new BoxConstructor(2.4);
 BoxConstructor box3=new BoxConstructor(2,4,5);
 
-double vol =box3.volume();
+double vol =box2.volume();
 
 System.out.println(vol);
 //	
